@@ -1,0 +1,144 @@
+body {
+    min-width: 1200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.photo {
+    margin-top: 33px;
+}
+
+.journey {
+    font-family: 'Menlo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 57px;
+    padding-left: 12px;
+}
+
+.try__button {
+    width: 424px;
+    height: 75px;
+    background-color: #EF5B72;
+    margin-top: 48px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.try__txt {
+    position: absolute;
+    font-family: 'Menlo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: white;
+    padding-left: 59px;
+    padding-top: 25px;
+}
+
+.write {
+    font-family: 'Menlo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 155px;
+    text-align: center;
+}
+
+/* FORM */
+
+form {
+    margin: 0 auto;
+    margin-top: 131px;
+    position: relative;
+}
+
+.block__form {
+    position: absolute;
+    left: 28%;
+}
+
+.textbox {
+    height: 78px;
+    width: 836px;
+    border: 0;
+    font-family: 'Menlo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    border-bottom: 1px solid #000000;
+    margin-top: 30px;
+}
+
+.button {
+    width: 836px;
+    height: 86px;
+    margin-top: 55px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Menlo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    border: 3px solid;
+    cursor: pointer;
+}
+
+.forgot {
+    font-family: 'Menlo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 530px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.foot {
+    margin-top: 680px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.member {
+    font-family: 'Menlo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.sign {
+    font-family: 'Menlo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    padding-left: 32px;
+}
